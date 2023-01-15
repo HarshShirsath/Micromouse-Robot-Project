@@ -1,0 +1,13 @@
+
+------------------------------------------------------------------------
+Build the application
+------------------------------------------------------------------------
+g++ -std=c++17 -g main.cpp simulator/simulator.cpp  robot/robot.cpp algorithm/algorithm.cpp cell/cell.cpp -o main
+------------------------------------------------------------------------
+To switch between left-hand rule approach and right-hand rule approach
+------------------------------------------------------------------------
+Provide command line argument as 'left' or 'right' in Run Command
+For left-hand rule approach:
+./main left
+For right-hand rule approach:
+./main right
